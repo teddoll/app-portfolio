@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App Potfolio</string>
+
+    <string name="title_streamer">Spotify Streamer</string>
+    <string name="title_super_duo_one">Scores</string>
+    <string name="label_super_duo_one">Scores App</string>
+    <string name="title_super_duo_two">Library</string>
+    <string name="label_super_duo_two">Library App</string>
+    <string name="title_build_bigger">Build It Bigger</string>
+    <string name="title_xyz_reader">XYZ Reader</string>
+    <string name="title_capstone">Capstone</string>
+    <string name="toast_format">This button will launch my %s app!</string>
+</resources>

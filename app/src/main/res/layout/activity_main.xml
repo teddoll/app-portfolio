@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <!-- adding a scroll view for smaller devices -->
+    <!-- TODO need seperate layout for smaller devices... -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/button_group_padding"
+            android:paddingRight="@dimen/button_group_padding"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <Button
+                android:id="@+id/button_steamer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_padding"
+                android:text="@string/title_streamer" />
+
+            <Button
+                android:id="@+id/button_duo_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
+                android:padding="@dimen/button_padding"
+
+                android:text="@string/label_super_duo_one" />
+
+            <Button
+                android:id="@+id/button_duo_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
+                android:padding="@dimen/button_padding"
+                android:text="@string/label_super_duo_two" />
+
+            <Button
+                android:id="@+id/button_bigger"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
+                android:padding="@dimen/button_padding"
+                android:text="@string/title_build_bigger" />
+
+            <Button
+                android:id="@+id/button_xyz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
+                android:padding="@dimen/button_padding"
+                android:text="@string/title_xyz_reader" />
+
+            <Button
+                android:id="@+id/button_capstone"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/button_margin"
+                android:padding="@dimen/button_padding"
+                android:text="@string/title_capstone" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
