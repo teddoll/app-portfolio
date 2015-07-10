@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
             findViewById(ids[position]).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
+                    //TODO add logic to launch intent or show toast.
                     showToast(toasts[position]);
                 }
             });
